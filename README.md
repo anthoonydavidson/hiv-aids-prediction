@@ -18,7 +18,7 @@ This work was authored and presented at the **International Conference on Cybern
 
 ## 📊 Dataset
 
-- Source: Public Kaggle dataset [Link Text](https://www.kaggle.com/datasets/ishigamisenku10/hiv-prediction)
+- Source: [Public Kaggle dataset](https://www.kaggle.com/datasets/ishigamisenku10/hiv-prediction)
 - Total samples: 698  
 - Features: 10 socio-behavioral attributes including:
   - Age  
@@ -33,3 +33,53 @@ This work was authored and presented at the **International Conference on Cybern
   - Target: HIV Status (Positive / Negative)
 
 ---
+
+## ⚙️ Methodology
+
+### 1️⃣ Data Preprocessing
+
+- Data cleaning and categorical standardization  
+- Train-test split (80:20)  
+- Feature scaling using `StandardScaler`  
+- One-hot encoding for categorical variables  
+- Label encoding for target variable  
+- Pipeline construction using `ColumnTransformer`  
+
+### 2️⃣ Models Evaluated
+
+- Logistic Regression  
+- Gaussian Naive Bayes  
+- Decision Tree  
+- Support Vector Machine (SVM)  
+- Random Forest  
+- XGBoost  
+- Stacked Ensemble (meta-learner: Logistic Regression)  
+
+Hyperparameter tuning was performed using **GridSearchCV with 5-fold cross-validation**.
+
+---
+
+## 🔍 Explainable AI (SHAP)
+
+To improve transparency and interpretability, SHAP was integrated into the best-performing model.
+
+SHAP analysis provided:
+
+- Global feature importance (Beeswarm & Bar plots)
+- Individual prediction explanations (Waterfall plot)
+- Identification of key predictors such as:
+  - Partner-seeking behavior (Internet, Bar)
+  - Drug-taking behavior
+  - Age
+  - Educational background
+
+This enhances trust and supports potential real-world healthcare applications.
+
+---
+
+## 🌐 Interactive Gradio Interface
+
+To demonstrate real-world usability, the trained Random Forest model was deployed using **Gradio**, enabling users to:
+
+- Input socio-behavioral features manually  
+- Receive instant HIV risk prediction  
