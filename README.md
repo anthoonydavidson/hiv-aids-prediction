@@ -5,8 +5,9 @@ This project presents a comparative analysis of multiple machine learning algori
 
 This work was authored and presented at the **International Conference on Cybernetics and Intelligent Systems (ICORIS)**.
 
-🔗 **Official IEEE Publication:** 
-[https://ieeexplore.ieee.org/document/11296119]
+🔗 **Official IEEE Publication:**
+
+https://ieeexplore.ieee.org/document/11296119
 
 ---
 
