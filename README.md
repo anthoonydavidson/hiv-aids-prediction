@@ -3,7 +3,7 @@
 
 This project presents a comparative analysis of multiple machine learning algorithms for predicting HIV/AIDS status using socio-behavioral data. The study evaluates traditional, ensemble, and stacked models to identify the most effective predictive approach while integrating Explainable AI (SHAP) techniques to enhance model transparency.
 
-This work was authored and presented at the International Conference on Cybernetics and Intelligent Systems (ICORIS).
+This work was authored and presented at the **International Conference on Cybernetics and Intelligent Systems (ICORIS)**.
 
 ---
 
@@ -18,7 +18,7 @@ This work was authored and presented at the International Conference on Cybernet
 
 ## 📊 Dataset
 
-- Source: Public Kaggle dataset (https://www.kaggle.com/datasets/ishigamisenku10/hiv-prediction)
+- Source: Public Kaggle dataset [Link Text](https://www.kaggle.com/datasets/ishigamisenku10/hiv-prediction)
 - Total samples: 698  
 - Features: 10 socio-behavioral attributes including:
   - Age  
