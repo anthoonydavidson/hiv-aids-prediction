@@ -1,5 +1,5 @@
 # Machine Learning for HIV/AIDS Prediction using Explainable AI
-## 📌 Project Overview
+## Project Overview
 
 This project presents a comparative analysis of multiple machine learning algorithms for predicting HIV/AIDS status using socio-behavioral data. The study evaluates traditional, ensemble, and stacked models to identify the most effective predictive approach while integrating Explainable AI (SHAP) techniques to enhance model transparency.
 
@@ -12,7 +12,7 @@ https://ieeexplore.ieee.org/document/11296119
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Compare the performance of multiple machine learning models for HIV/AIDS prediction  
 - Identify the best-performing model based on classification metrics  
@@ -21,7 +21,7 @@ https://ieeexplore.ieee.org/document/11296119
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Source: [Public Kaggle dataset](https://www.kaggle.com/datasets/ishigamisenku10/hiv-prediction)
 - Total samples: 698  
@@ -39,7 +39,7 @@ https://ieeexplore.ieee.org/document/11296119
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1️⃣ Data Preprocessing
 
@@ -64,7 +64,7 @@ Hyperparameter tuning was performed using **GridSearchCV with 5-fold cross-valid
 
 ---
 
-## 🔍 Explainable AI (SHAP)
+## Explainable AI (SHAP)
 
 To improve transparency and interpretability, SHAP was integrated into the best-performing model.
 
@@ -82,7 +82,7 @@ This enhances trust and supports potential real-world healthcare applications.
 
 ---
 
-## 🌐 Interactive Gradio Interface
+## Interactive Gradio Interface
 
 To demonstrate real-world usability, the trained Random Forest model was deployed using **Gradio**, enabling users to:
 
